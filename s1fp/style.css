@@ -9,3 +9,12 @@
 #imagestart {
     text-align: center;
 }
+
+#firsth1 {
+    text-align:center;
+}
+
+#firsth1 a {
+    padding: 10px;
+    background-color: rgb(208, 77, 77);
+}
