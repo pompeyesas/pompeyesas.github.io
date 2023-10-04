@@ -7,10 +7,12 @@
 }
 
 #imagestart {
+    text-align: -webkit-center;
     text-align: center;
 }
 
 #firsth1 {
+    text-align: -webkit-center;
     text-align:center;
 }
 
@@ -18,3 +20,48 @@
     padding: 10px;
     background-color: rgb(208, 77, 77);
 }
+
+#styledtable {
+    border-collapse: collapse;
+  }
+  
+  
+  #styledtable td {
+    position:relative;
+    border: 1px solid #000000;
+    min-width: 200px;
+    height: 200px;
+    text-align: center;
+    opacity: 100%;
+  }
+  
+  #secondh1 {
+    position:relative;
+    text-align: -webkit-center;
+
+  }
+  
+  .tables {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .walking {
+    position: relative;
+    opacity: 0%;
+  }
+
+ .walking:hover {
+    opacity: 100%;
+    transition: opacity 0.3s;
+  }
+
+  .nowalk {
+    font-size: 70px;
+    opacity: 0%;
+  }
+
+  .nowalk:hover {
+    opacity: 100%;
+    transition: opacity 0.3s;
+  }
