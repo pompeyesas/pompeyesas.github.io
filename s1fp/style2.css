@@ -12,10 +12,7 @@
     
 }
 
-img {
-  height: 800;
-  width: 800;
-}
+
 
 #firsth1 {
     text-align: -webkit-center;
@@ -24,8 +21,8 @@ img {
 
 #firsth1 a {
     padding: 10px;
-    border-radius: 10px;
-    background-color: rgb(255, 181, 84);
+   
+    background-color: rgb(208, 77, 77);
 }
 
 #styledtable {
@@ -82,16 +79,7 @@ img {
 
     
 }
-#title2 {
-  margin-top: 15%;
-  font-size: 30;
-}
-#title1 {
-  margin-top: 15%;
-  color: rgb(255, 255, 255);
-}
-
-a {
-  color:rgb(0, 0, 0);
-    text-decoration:none;
+img {
+  height: 200;
+  width: 200;
 }
