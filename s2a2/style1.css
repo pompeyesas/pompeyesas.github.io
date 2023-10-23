@@ -1,5 +1,5 @@
 #imagestart img {
-  cursor: url(starrr2.svg), auto;
+  cursor: url(idea2.svg), auto;
     height: 500;
     width: 500;
     
@@ -32,7 +32,7 @@ html, body {
     background-color: rgb(0, 0, 0);
     color: white;
    padding-bottom: 150px;
-   cursor: url(starrr.svg), auto;
+   cursor: url(idea1.svg), auto;
 
    
 }
@@ -78,6 +78,7 @@ html, body {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.803);
+    cursor: url(starrr.svg), auto;
   }
 
  #secondpiece:target {
@@ -100,6 +101,7 @@ html, body {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.803);
+    cursor: url(starrr.svg), auto;
   }
 
  #thirdpiece:target {
@@ -114,6 +116,7 @@ html, body {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.803);
+    cursor: url(starrr.svg), auto;
   }
 
  #fourpiece:target {
@@ -128,6 +131,7 @@ html, body {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.803);
+    cursor: url(starrr.svg), auto;
   }
 
  #fivepiece:target {
@@ -147,6 +151,7 @@ html, body {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.803);
+    cursor: url(starrr.svg), auto;
   }
 
  #sixpiece:target {
@@ -160,6 +165,7 @@ html, body {
     position:fixed;
     top:0;
     left: 0;
+    cursor: url(starrr.svg), auto;
 
   }
 
