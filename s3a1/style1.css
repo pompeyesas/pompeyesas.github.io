@@ -1,0 +1,434 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#Cocoawrapper {
+    position: relative;
+   text-align: center;
+   display:block;
+}
+
+#Cocoa {
+    
+    text-align: center;
+    margin-top: 20%;
+}
+
+#Cocoa2 {
+    
+ text-align: center;
+    margin-top: 20%;
+}
+
+#Cocoa3 {
+    
+    text-align: center;
+    margin-top: 20%;
+}
+
+#Cocoa4 {
+    position: absolute;
+    margin:40%;
+    animation: myOrbit 3s linear 20;
+    text-align: center;
+    margin-top: 20%;
+    
+}
+
+@keyframes myOrbit {
+    from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+#Cocoa5 {
+    animation: MoveUpDown 1.5s linear infinite;
+  position: absolute;
+  margin:60%;
+    text-align: center;
+    margin-top: 29%;
+
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-400px);
+    }
+  }
+
+#button {
+    margin: auto;
+    height:20px;
+    width: 30px;
+    background-color: rgb(201, 181, 116) ;
+}
+
+#button2 {
+    margin: auto;
+    margin-top:75px ;
+    text-align: center;
+    height:20px;
+    width: 30px;
+    background-color: rgb(201, 181, 116) ;
+}
+
+#button3 {
+    margin: auto;
+    top:10 ;
+    height:20px;
+    width: 30px;
+    background-color: rgb(201, 181, 116)  ;
+}
+
+#Cocoatalk {
+
+    display: inline-block;
+    text-align: center;
+}
+
+#Cocoatalk2 {
+
+    margin-top:5%;
+    text-align: center;
+}
+
+#Cocoatalk3 {
+
+
+    text-align: center;
+}
+
+#Cocoatalk4 {
+    text-align: center;
+    position:relative;
+    margin-top:40%;
+}
+
+#Cocoatalk5 {
+    text-align: center;
+    position:relative;
+    margin-top:40%;
+}
+
+#section2 {
+   justify-content: center;
+    display: none;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
+
+#section2:target {
+    display: block;
+}
+
+
+#section3 {
+    display: none;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+}
+
+#section3:target {
+    display: block;
+}
+
+
+#section4 {
+    display: none;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#section4:target {
+    display: block;
+}
+
+#section5 {
+    display: none;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#section5:target {
+    display: block;
+}
+
+#section6 {
+    display: none;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#section6:target {
+    display: block;
+}
+
+
+#text {
+    font-size: 40px;
+    text-align: center;
+    width:100%;
+    border-right: 5px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 2s,
+        cursor .4s step-end infinite alternate;
+}
+
+#text2 {
+    margin-top: 1px;
+    font-size: 40px;
+    text-align: center;
+    width:100%;
+    margin: auto;
+    border-right: 5px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 5s,
+        cursor .4s step-end infinite alternate;
+}
+
+#text20 {
+    margin-top: 1px;
+    font-size: 40px;
+    text-align: center;
+    width:100%;
+    margin: auto;
+    border-right: 5px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 5s,
+        cursor .4s step-end infinite alternate;
+    animation-delay: 2s;
+    animation-fill-mode:backwards
+}
+
+
+#text3 {
+    font-size: 40px;
+    text-align: center;
+    width:100%;
+    margin: auto;
+    border-right: 5px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 5s,
+        cursor .4s step-end infinite alternate;
+}
+
+#text4 {
+    font-size: 40px;
+    text-align: center;
+    width:100%;
+    margin: auto;
+    border-right: 5px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    animation-name: fade-out;
+    animation-delay: 2s;
+    animation-duration: 4s; 
+    animation-fill-mode: forwards;
+    
+  
+
+}
+
+
+@keyframes fade-out {
+    0%   { opacity: 1; }
+    100%   { opacity: 0; }
+}
+
+#text5 {
+    font-size: 40px;
+    text-align: center;
+    width:100%;
+    margin: auto;
+    border-right: 5px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    top: 0px;
+    position:absolute;
+    animation-name: fade-in;
+    animation-duration: 4s; 
+    animation-delay: 9s;
+    /* animation-fill-mode: forwards; */
+  animation-iteration-count: 1;
+  opacity: 0;
+
+}
+
+
+#text6 {
+    font-size: 40px;
+    text-align: center;
+    width:100%;
+    margin: auto;
+    border-right: 5px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    top: 0px;
+    position:absolute;
+    animation-name: fade-out;
+    animation-duration: 7s; 
+    animation-delay: 13s;
+  animation-iteration-count: 1;
+  opacity: 0;
+  
+
+}
+
+#text60 {
+    font-size: 40px;
+    text-align: center;
+    width:100%;
+    margin: auto;
+    border-right: 5px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    top: 0px;
+    position:absolute;
+    animation-name: fade-in;
+    animation-duration: 7s; 
+    animation-delay: 20s;
+  animation-iteration-count: 1;
+  opacity: 0;
+  
+
+}
+
+#text7 {
+    font-size: 40px;
+    text-align: center;
+    width:100%;
+    margin: auto;
+    border-right: 5px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    top: 0px;
+    position:absolute;
+    animation-name: fade-in;
+    animation-duration: 4s; 
+    animation-delay: 35s;
+    animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  opacity: 0;
+
+}
+#text8 {
+    font-size: 40px;
+    text-align: center;
+    width:100%;
+    margin: auto;
+    border-right: 5px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    top: 0px;
+    position:relative;
+    animation-name: fade-in;
+    animation-duration: 4s; 
+    animation-delay: 35s;
+    animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  opacity: 0;
+
+}
+
+@keyframes fade-in {
+    0%   { opacity: 0; }
+    100%   { opacity: 1; }
+}
+
+
+
+@keyframes cursor {
+    50% { border-color: transparent}
+}
+
+@keyframes typing {
+    from {width: 0}
+}
+
+a {
+    color:rgb(0, 0, 0);
+      text-decoration:none;
+  }
+
+  #record img {
+    position:absolute;
+    text-align: center;
+  }
+
+/* #Cocoatalk4 img {
+    margin-top: 0px;
+    position:absolute;
+} */
+
+#rec1 img {
+    max-width: 500;
+    height: 500;
+    top: -600px;
+    position: relative;
+    animation-name: fade-in;
+    animation-duration: 28s; 
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  opacity: 0;
+
+}
+
+#rec2 img {
+    max-width: 500;
+    height: 500;
+    top: -1100px;
+    position: relative;
+    animation-name: fade-in;
+    animation-duration: 20s; 
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  opacity: 0;
+}
+
+#rec3 img {
+    max-width: 200;
+    height: 200;
+    top: -1450px;
+    position: relative;
+    animation-name: fade-in;
+    animation-duration: 15s; 
+    animation-delay: 20s;
+    animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  opacity: 0;
+}
