@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+  }
+  @font-palette-values --Mint {
+    font-family: Rocher;
+    base-palette: 7;
+  }
+
+  .mint {
+    font-palette: --Mint;
+  }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+
+
+  #holder {
+    
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border: 20px;
+    stroke: 20px;
+    border-color: black;
+    background-color: rgba(255, 255, 255, 0.236);
+  }
+
+  canvas {
+    /* stroke: 2px;
+    display: block;
+    position: relative;
+    align-items: center; */
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+  }
+
+  
+
+  input {
+    margin: 0;
+    position: relative;
+    padding: 5px 5px;
+    stroke: 2px;
+  }
+
+  #Titl {
+    font-family: 'Rocher';
+  text-align: center;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+    
+
+
+p {
+    position: relative;
+    top:-60px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Courier, monospace;
+    font-weight: bold;
+    font-stretch: condensed;
+    color: white;
+}
+
+
+  #wrapper {
+    align-items: center;
+    height: 150vh;
+    width: 100vw;
+    background: rgb(90,156,255);
+background: radial-gradient(circle, rgba(90,156,255,1) 0%, rgba(152,255,246,1) 100%);
+    /* background-color: rgb(108, 171, 239); */
+  }
+
+  #stuff {
+    /* margin:0; */
+  }
+
+  #FunN {
+    margin: 0;
+    align-items: center;
+  }
+
+  div {
+    object-position: center;
+  }
+
+
+
+
+
