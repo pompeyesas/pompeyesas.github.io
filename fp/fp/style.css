@@ -1,0 +1,238 @@
+body {
+    background-color: white;
+}
+
+#wrapper {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 210vh;
+    width: 100vw;
+    justify-content: center;
+    
+}
+
+#titleme {
+    text-align: center;
+    height: 300px;
+    width: 1100px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#titleme img {
+    height: 600px;
+    width: 1100px;
+    text-align: center;
+}
+
+#grid {
+    border-collapse: collapse;
+    margin-left: 50%;
+}
+
+
+
+#grid td {
+    position:relative;
+    
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    opacity: 100%;
+}
+
+#grid img {
+    width: 160px ;
+    height: 160px;
+}
+
+.fit {
+    transition: all 0.3s;
+}
+
+.fit:hover {
+    transform: scale(.9);
+
+} 
+
+body:has(#applet:hover) #char1 {
+    display: block;
+}
+
+body:has(#bands:hover) #char2 {
+    display: block;
+}
+
+body:has(#clock:hover) #char3 {
+    display: block;
+}
+
+body:has(#webring:hover) #char4 {
+    display: block;
+}
+
+body:has(#kirby:hover) #char5 {
+    display: block;
+}
+
+body:has(#still_life:hover) #char6 {
+    display: block;
+}
+
+body:has(#cocoa:hover) #char7 {
+    display: block;
+}
+
+body:has(#date_with_bob:hover) #char8 {
+    display: block;
+}
+
+body:has(#inspiration:hover) #char9 {
+    display: block;
+}
+
+
+
+
+
+
+
+
+/* sprites */
+
+
+.sprites {
+    position: absolute;
+    height: 450px;
+    width: 450px;
+    margin-top: -450px;
+    margin-left: 5%;
+    overflow: hidden;
+}
+
+#sprite2 {
+    position: absolute;
+    height: 450px;
+    width: 450px;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+#sprite3 {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin-left: 43%;
+    margin-top: 60%;
+}
+
+#sprite4 {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin-left: 43%;
+    /* margin-top: %; */
+}
+
+.spritecrop {
+    margin:0;
+    height: 450px;
+    width: 900px;
+    animation: moveSprites .5s steps(2) infinite;
+}
+
+.spritecrop3 {
+    margin:0;
+    height: 200px;
+    width: 400px;
+    animation: moveSprites .5s steps(2) infinite;
+}
+
+@keyframes moveSprites {
+    from {
+        transform: translate3d(0px,0,0)
+    }
+    to {
+        transform: translate3d(-100%,0,0);
+    }
+}
+
+.spritecrop2 {
+    height: 300px;
+    width: 900px;
+    animation: moveSprites2 .5s steps(2) infinite;
+}
+
+@keyframes moveSprites2 {
+    from {
+        transform: translate3d(0,0px,0)
+    }
+    to {
+        transform: translate3d(0,-100%,0);
+    }
+}
+
+
+
+
+
+#char1 {
+    display: none;
+    position: absolute;
+}
+
+#char2 {
+    display: none;
+    position: absolute;
+}
+
+#char3 {
+    display: none;
+    position: absolute;
+}
+
+#char4 {
+    display: none;
+    position: absolute;
+}
+
+#char5 {
+    display: none;
+    position: absolute;
+}
+
+#char6 {
+    display: none;
+    position: absolute;
+}
+
+#char7 {
+    display: none;
+    position: absolute;
+}
+
+#char8 {
+    display: none;
+    position: absolute;
+}
+
+#char9 {
+    display: none;
+    position: absolute;
+}
+
+/* #sprite3 {
+    position: relative;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+    height: 300px;
+    width: 300px;
+    margin-left: 10%;
+    margin-top: 10%;
+} */
+
+/* readings */
+
+
+ 
+   
+   
